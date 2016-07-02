@@ -26,7 +26,5 @@ public class QuickSort {
 		 quickSort(temp,0,temp.length-1);
 		 for(int i=0;i<temp.length;i++)
 			 System.out.println(temp[i]);
-
 	}
-
 }
