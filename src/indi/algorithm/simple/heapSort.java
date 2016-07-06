@@ -45,5 +45,4 @@ public class heapSort {
 		 for(int i=0;i<temp.length;i++)
 			 System.out.println(temp[i]);
 	}
-
 }
