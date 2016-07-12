@@ -1,4 +1,4 @@
-package DP;
+package indi.algorithm.Dp;
 import java.util.Arrays;
 
 public class LIS {

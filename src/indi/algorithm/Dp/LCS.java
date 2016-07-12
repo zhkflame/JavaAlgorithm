@@ -1,4 +1,4 @@
-package DP;
+package indi.algorithm.Dp;
 
 public class LCS {
 	
