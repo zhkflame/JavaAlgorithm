@@ -14,7 +14,7 @@ public class MergeSort {
 			L_m[k++]=L[i++];
 		while(j<=end)
 			L_m[k++]=L[j++];
-		for(int t=0;t<=end;t++)
+		for(int t=start;t<=end;t++)
 			L[t]=L_m[t];
 	}
 	
