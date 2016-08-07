@@ -1,7 +1,7 @@
 package indi.algorithm.BFSandDFS;
 
 public interface MyQueue {
-	boolean isEmpty();
+	public boolean isEmpty();
 	void clear();
 	boolean isFull();
 	int length();
