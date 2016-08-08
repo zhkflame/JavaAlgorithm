@@ -28,10 +28,15 @@ public class testDintance {
 				System.out.print(j+"  ");
 			System.out.println();
 		}
-		
+		int[][] graph2={{0,2,5,14,999},
+	           {2,0,999,4,999},
+	           {5,999,0,999,4},
+	           {14,4,999,0,2},
+	           {999,999,4,2,0}};
 		System.out.println(Prime.getDistance(graph, 1, distance));
-		
-		
+		int[] distance2=new int[len];
+		//Kruskal.kruskal(graph, 0, distance2);
+		System.out.println(Kruskal.kruskal(graph, 1, distance2));
 		
 	}
 
