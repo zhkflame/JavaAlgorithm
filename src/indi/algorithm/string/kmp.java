@@ -17,10 +17,10 @@ public class kmp {
 				k=next[k];
 			if(p_str.charAt(j-1)==p_str.charAt(k)){
 				next[j]=k+1;
-				j++;
+				k=next[j];
 			}
 			else
-				next[j++]=0;
+				next[j]=0;
 		}
 		/*
 		while(j<lenP){
@@ -59,8 +59,8 @@ public class kmp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub\
-		String t_String="abcdabceabcegf";
-		String p_String="abceg";
+		String t_String="aaaaac";
+		String p_String="aaaac";
 		int res=kmp(t_String, p_String);
 		System.out.println(res);
 	}
