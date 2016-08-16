@@ -45,9 +45,9 @@ public class sudoku {
 								//isDone=true;
 							}
 							//return true;
-						}						
+						}	
+						chess[i][j]=0;	
 					}
-					chess[i][j]=0;	
 				}
 				return false;
 			}
@@ -83,7 +83,7 @@ public class sudoku {
 		                    {4,0,5,0,3,0,7,0,8},
 		                    {0,0,0,0,2,0,9,4,0},
 		                    {0,0,2,5,0,4,0,6,0}};
-		sudoku s=new sudoku(chess3);
+		sudoku s=new sudoku(chess1);
 		s.sudoku();
 		s.printResult();
 	}

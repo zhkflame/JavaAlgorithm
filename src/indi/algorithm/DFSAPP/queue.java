@@ -42,12 +42,14 @@ public class queue {
 			isSloved=true;
 			return true;
 		}
+		int a=4;
 		for(int col=0;col<Qsize;col++){
 			if(canLay(row, col)){
 				path[row]=col;
 				setLay(row, col, true);
-				queue(path, row+1);
-					//return true;
+				if(queue(path, row+1))
+					return true;
+				//queue(path, row+1);
 				setLay(row, col, false);
 			}
 		}
