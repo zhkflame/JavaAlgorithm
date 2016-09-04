@@ -79,7 +79,7 @@ public class BackPack {
 		// TODO Auto-generated method stub
 		int[] heavy={23,15,34,7,45,30,60,10};
 		int[] value={100,75,110,26,180,80,170,31};
-		int maxHeavy=90;
+		int maxHeavy=91;
 		int maxValue=180;
 		System.out.println(BackPack3(heavy, value, maxHeavy));
 		System.out.println(BackPack4(heavy, value, maxValue));
